@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# R session / history / project files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# R / Stan / C++ build artefacts
+*.o
+*.so
+*.dll
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*~
+
+# Saved posterior fits — regenerable by re-running main_replication.R.
+# Excluded because some are >100MB (GitHub hard limit). Figures are kept.
+*/output/
+*/results/
+*_fit.rds
+*_fit.RData
+posterior_summaries.rds
+PVAR_IRGA_replication/data/replication_output.rda
+NGVAR_replication/data_synth.rda
+**/*.zip
+
+# Unrelated top-level file
+uploader.html
+
+# Claude Code internals
+.claude/
