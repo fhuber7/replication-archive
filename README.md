@@ -1,6 +1,6 @@
 # Replication Archive — Bayesian VARs and Nonparametric Macro Models
 
-Self-contained R replication packages for eleven Bayesian time-series models.
+Self-contained R replication packages for twelve Bayesian time-series models.
 Each subfolder is independent: it ships its own estimator, a synthetic
 data-generating process in `simulate_data.R`, a driver in
 `main_replication.R`, and a per-folder `README.md` with the model, file
@@ -26,6 +26,7 @@ checked without external data.
 | [`BNPVAR_replication`](BNPVAR_replication/) | Bayesian VAR with Dirichlet-process mixture on the structural shocks |
 | [`mixBART_replication`](mixBART_replication/) | Bayesian VAR with mixture-of-BART conditional means and factor SV |
 | [`SubspaceInflation_replication`](SubspaceInflation_replication/) | Single-equation inflation forecasting with GP-subspace / BART / UCSV |
+| [`SAVS_TVP_VARs_replication`](SAVS_TVP_VARs_replication/) | TVP-VAR with Signal Adaptive Variable Selector (SAVS) sparsification on five global-local shrinkage priors |
 
 ## How to run a single package
 
